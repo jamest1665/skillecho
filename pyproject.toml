@@ -1,0 +1,7 @@
+[project]
+name = "skillecho"
+version = "5.0.0"
+description = "Gamified skill builder for agents"
+requires-python = ">=3.10"
+[project.scripts]
+skillecho = "skillecho.cli:main"
